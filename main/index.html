@@ -1,24 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/style.css">
-    <title>Consumindo API VIACEP</title>
-</head>
-<body>
-    <form action="#">
-        <h1>Consulta Endereço CEP</h1>
-        <label>Digite seu CEP: </label>
-        <input type="text" id="cep" onkeypress="cepMask()" maxlength="9">
-        <button onclick="consultaEndereco()" type="submit">Consultar</button>
-        <button onclick="limpaDados()">Limpar</button>
-        <div id="resultado">
-            <p>Seu resultado Aqui: </p>
-        </div>
-    </form>
-</body>
-<script src="../script/script.js"></script>
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="../css/style.css" />
+        <script src="../script/script.js" defer></script>
+		<title>Consumindo API VIACEP</title>
+	</head>
+	<body>
+		<div class="container">
+			<h1>Consulta de Endereço</h1>
+			<input type="text" id="cep" placeholder="Digite seu CEP" maxlength="9" />
+			<button id="buscar">Buscar</button>
+			<button id="limpar">Limpar</button>
+			<div id="resultado">
+				<p>Seu resultado aqui:</p>
+			</div>
+		</div>
+	</body>
 </html>
