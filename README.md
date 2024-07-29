@@ -30,7 +30,7 @@ Este projeto foi desenvolvido com fins acadêmicos, com o intuito de aprender so
 
 Esta aplicação é um exemplo simples de como consumir APIs e manipular dados recebidos para exibição ao usuário. É uma ótima base para projetos mais complexos que envolvam integração com APIs.
 
-## Autor
+## Autores
 
 - [Victor Bahiy](https://github.com/Bahiy)
 - [Cesar Augusto](https://github.com/Ces-August0)
